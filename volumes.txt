@@ -1,0 +1,11 @@
+import math
+import datetime
+current_date_and_time = datetime.datetime.now()
+print(f"The current date is: {current_date_and_time:%y-%m-%d}")
+value1 = [185, 50, 14]
+value2 = [205, 60, 15]
+w = int(input("Enter the width of the tire in millimeters: "))
+a = int(input("Enter the aspect ratio of the tire: "))
+d = int(input("Enter the diameter of the wheel in inches: "))
+v = (math.pi * ({w}**2) * {a}) * ({w} * {a} + (2540 * {d}))/ 10000000000
+total = print(current_date_and_time, value1, value1, v)
